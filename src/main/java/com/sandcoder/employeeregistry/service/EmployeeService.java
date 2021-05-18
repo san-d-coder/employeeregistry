@@ -1,7 +1,5 @@
 package com.sandcoder.employeeregistry.service;
 
-import org.springframework.transaction.annotation.Transactional;
-
 import com.sandcoder.employeeregistry.model.Employee;
 
 public interface EmployeeService {
