@@ -17,6 +17,11 @@ public class RouterController {
 		return "about";
 	}
 	
+	@RequestMapping(value = "/contact", method = RequestMethod.GET)
+	public String contactPage() {
+		return "contact";
+	}
+	
 	@RequestMapping(value = "/create", method = RequestMethod.GET)
 	public String createNewEmployeePage() {
 		return "createNew";
