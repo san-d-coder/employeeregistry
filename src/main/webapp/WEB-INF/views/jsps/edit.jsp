@@ -16,7 +16,12 @@
 				</button>
 			</div>
 			<div class="modal-body">
-				<form action="editEmployee" method="post">
+				<form id = "editForm" action="#" method="post">
+					<div class="form-group">
+						<label for="employeeId">Employee Id</label> <input type="text"
+							class="form-control" id="employeeId" name="employeeId"
+							placeholder="Id" disabled>
+					</div>					
 					<div class="form-group">
 						<label for="employeeName">Name</label> <input type="text"
 							class="form-control" id="employeeName" name="employeeName"
